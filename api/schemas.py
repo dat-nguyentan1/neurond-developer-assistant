@@ -1,5 +1,9 @@
+from __future__ import annotations
+
+from typing import List
+from typing import Union
+
 from pydantic import BaseModel
-from typing import List, Union
 
 
 class Token(BaseModel):
